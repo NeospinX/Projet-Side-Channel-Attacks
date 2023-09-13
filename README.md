@@ -2,6 +2,11 @@
 
 Après avoir téléchargé les codes, installez la librairie py.cryptodome sur votre IDE pour s'assurer que le programme puisse bien reprendre les modules proposés notamment encryptDES, decryptDES...
 
+'''bash
+pip install pycryptodome
+'''
+
+
 Vous trouverez les codes suivants
 - STA_no_Cipher.py montre une Timing attack classique sans aucun procédé de chiffrement. C'est le niveau simple de l'attaque.
 - STA_DES.py reprend le modèle du précédant en tentant d'ajouter des étapes de chiffrement DES avant de lancer une pseudo Timing attack.
