@@ -1,6 +1,7 @@
 # Projet-Side-Channel-Attacks
 
 <u>Installation</u>
+
 Après avoir téléchargé les codes, installez la librairie pycryptodome sur votre IDE pour s'assurer que le programme puisse bien reprendre les modules proposés notamment encryptDES, decryptDES...
 
 ```bash
