@@ -2,9 +2,10 @@
 
 Après avoir téléchargé les codes, installez la librairie py.cryptodome sur votre IDE pour s'assurer que le programme puisse bien reprendre les modules proposés notamment encryptDES, decryptDES...
 
-'''bash
+```bash
 pip install pycryptodome
-'''
+```
+
 
 
 Vous trouverez les codes suivants
