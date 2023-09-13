@@ -1,7 +1,7 @@
 import time
 from prettytable import PrettyTable
 
-def sta_attack(mdp): #fonction de STA
+def staAttack(mdp): #fonction de STA
     charset = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
     # on initialise des variables et listes vides qu'on remplira au fur et à mesure de l'attaque pour déduire des mesures de temps etc.
     mdp_length = len(mdp)
@@ -43,7 +43,7 @@ def sta_attack(mdp): #fonction de STA
     return mdpCracked
 
 if __name__ == "__main__":
-    mdp = input("Entrer un mot de passe à attaquer: ") #On attend la saisie utilisateur avant de lancer l'attaque
+    mdp = input("Entrez un mot de passe à attaquer: ") #On attend la saisie utilisateur avant de lancer l'attaque
     print("\033[0;31mLançement de l'attaque STA\033[0m")
-    mdpCracked = sta_attack(mdp)   #On appelle la fonction d'attaque et met en argument le mdp
+    mdpCracked = staAttack(mdp)   #On appelle la fonction d'attaque et met en argument le mdp
 
