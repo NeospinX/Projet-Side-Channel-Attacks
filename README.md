@@ -1,12 +1,11 @@
 # Projet-Side-Channel-Attacks
 
-Après avoir téléchargé les codes, installez la librairie py.cryptodome sur votre IDE pour s'assurer que le programme puisse bien reprendre les modules proposés notamment encryptDES, decryptDES...
-
+<u>Installation</u>
 ```bash
 pip install pycryptodome
 ```
 
-
+Après avoir téléchargé les codes, installez la librairie py.cryptodome sur votre IDE pour s'assurer que le programme puisse bien reprendre les modules proposés notamment encryptDES, decryptDES...
 
 Vous trouverez les codes suivants
 - STA_no_Cipher.py montre une Timing attack classique sans aucun procédé de chiffrement. C'est le niveau simple de l'attaque.
